@@ -1,0 +1,227 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ABBAC4;
+    font-family: Spartan;
+    color: #2B2D42;
+    overflow-x: hidden;
+}
+
+@media print {
+    footer {page-break-after: always;}
+}
+
+@font-face {
+    font-family: Spartanlight;
+    src: url(Fonts/spartanlight.ttf);
+    
+}
+
+@font-face {
+    font-family: Spartan;
+    src: url(Fonts/Spartan.ttf);
+}
+
+@font-face {
+    font-family: LibreFranklin;
+    src: url(Fonts/LibreFranklin.ttf);
+}
+
+.Bild {
+    width: 40px ;
+    height: auto;
+    vertical-align: middle;
+}
+
+span {
+    font-family: Spartanlight;
+    font-size: 10pt;
+}
+
+#GML {
+    font-family: Spartan;
+    font-size: 12px;
+}
+
+.Header {
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    z-index: 2;
+}
+
+.links {
+    margin: auto;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+div a {
+    text-decoration: none;
+    color: #2B2D42;
+}
+
+div a:hover {
+    font-weight: bold;
+}
+
+.Search {
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.name {
+    font-size: 250px;
+    z-index: 1;
+    white-space: nowrap;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translate(-50px, 100px);
+}
+
+#mann {
+    width: auto;
+    height: 307px;
+}
+
+.man {
+    z-index: 3;
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(-270px);
+}
+
+.Scroll {
+    z-index: 3;
+    display: grid;
+    white-space: nowrap;
+    align-items: right;
+    transform: translateY(-85px);
+    font-size: 25px;
+    margin-left: 65%;
+}
+
+.arrows {
+    transform: translateX(38px);
+}
+
+.hoby {
+    background-color: #2B2D42;
+    color: white;
+}
+
+h1 {
+    padding-left: 50px;
+    font-size: 190px;
+    font-weight: bold;
+    break-before: avoid;
+    margin-top: -127px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div p {
+    width: 800px;
+}
+
+.intro {
+    display: grid;
+    font-size: 40px;
+    height: auto;
+    margin: 50px;
+    transform: translateY(-90px);
+    grid-template-columns: auto auto;
+    margin-bottom: 0px;
+}
+
+.Piece {
+    margin-left: auto;
+    transform: translateY(30px);
+}
+
+h2 {
+    font-size: 100px;
+    display: grid;
+}
+
+.Hobbies {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Spiele {
+    margin-left: auto;
+    width: 600px;
+    height: auto;
+    transform: translateY(40px);
+}
+
+.allgemein {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #2B2D42 50%, #ABBAC4 50%);
+}
+
+.allgemein p {
+    margin-top: -20px;
+}
+
+#h3 {
+    font-size: 100px;
+    padding: 50px;
+    padding-bottom: 120px;
+    width: 50%;
+    height: auto;
+    padding-top: 90px;
+}
+
+.Black {
+    margin-left: 40px;
+}
+
+.White {
+    color: #2B2D42;
+    text-align: right;
+    margin-left: auto;
+    transform: translateY(-57px);
+    margin-right: 40px;
+}
+
+#inquiry {
+    font-size: 15px;
+    padding-left: 40px;
+    transform: translateY(80px);
+}
+
+#con {
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+    padding-bottom: 10px;
+}
+
+#copy {
+    font-family: Spartanlight;
+    font-size: 13px;
+    text-align: right;
+    color: #2B2D42;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
